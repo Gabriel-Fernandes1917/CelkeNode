@@ -9,12 +9,12 @@ CREATE USER 'foo'@'localhost' IDENTIFIED WITH mysql_native_password BY 'bar';
 
 
 Grant permission for access database:
-GRANT ALL aPRIVILEGES ON * . * TO 'foo'@'localhost';
+GRANT ALL PRIVILEGES ON * . * TO 'foo'@'localhost';
 
 
 refesh:
 
-FULSH PRIVILEGES;
+FLUSH PRIVILEGES;
 
 
 
